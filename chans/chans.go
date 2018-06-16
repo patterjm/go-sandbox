@@ -1,7 +1,6 @@
 package chans
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello world")
+//GetPing Adds string "ping" to given channel
+func GetPing(messages chan (string)) {
+	messages <- "ping"
 }
