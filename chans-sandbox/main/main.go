@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/patterjm/go-sandbox/chans"
+	"github.com/patterjm/go-sandbox/chans-sandbox/chans"
 )
 
 func main() {
-	fmt.Println("Hello world")
+
 	runChansGetPing()
 	runChansGetPingNTimes(10)
 }
